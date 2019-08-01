@@ -1,11 +1,44 @@
-<!-- 
-  Exercício 4: marcar elementos do texto; estilizar utilizando: color, background-color, font-family, font-size, text-align, text-shadow, line-height.
- -->
-
-Tipografia
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo eligendi sequi vel deleniti libero unde accusamus reiciendis enim, tenetur, qui, omnis aspernatur quasi rerum harum temporibus aperiam voluptates deserunt!
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo eligendi sequi vel deleniti libero unde accusamus reiciendis enim, tenetur, qui, omnis aspernatur quasi rerum harum temporibus aperiam voluptates deserunt!
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo eligendi sequi vel deleniti libero unde accusamus reiciendis enim, tenetur, qui, omnis aspernatur quasi rerum harum temporibus aperiam voluptates deserunt
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Tipografia</title>
+  <link href="https://fonts.googleapis.com/css?family=Fira+Code|Roboto&display=swap" rel="stylesheet"> 
+  <style>
+    ::selection{
+      color: #FFF;
+      /* background-color: #ff8066; */
+      background-color: #008bc6;
+    }
+    .titulo{
+      color: #FFF;
+      background-color: #845ec2;
+      text-align: center;
+      font-size: 48px;
+      font-family: 'Fira Code', monospace;
+      text-shadow: 2px 2px #000;
+    }
+    .texto{
+      color: #845ec2;
+      background-color: #fbeaff;
+      line-height: 1.5;
+      font-size: 20px;
+      font-family: 'Roboto', sans-serif;
+    }
+  </style>
+</head>
+<body>
+  
+  <!-- 
+    Exercício 4: marcar elementos do texto; estilizar utilizando: color, background-color, font-family, font-size, text-align, text-shadow, line-height.
+  -->
+  
+  <h1 class="titulo cor1">Tipografia</h1>
+  
+  <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo eligendi sequi vel deleniti libero unde accusamus reiciendis enim, tenetur, qui, omnis aspernatur quasi rerum harum temporibus aperiam voluptates deserunt!</p>
+  
+  <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo eligendi sequi vel deleniti libero unde accusamus reiciendis enim, tenetur, qui, omnis aspernatur quasi rerum harum temporibus aperiam voluptates deserunt!</p>
+  
+  <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo eligendi sequi vel deleniti libero unde accusamus reiciendis enim, tenetur, qui, omnis aspernatur quasi rerum harum temporibus aperiam voluptates deserunt!</p>
+</body>
+</html>
