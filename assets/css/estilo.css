@@ -1,16 +1,27 @@
+/* CSS Reset */
+* {
+  padding: 0; margin: 0;
+  box-sizing: border-box;
+}
+
 /* header */
 .header{
   background-color: #C0392B;
+  background-image: linear-gradient(#C0392B, #E74C3C);
 }
   .header--title{
     color: #FFFFFF;
     text-shadow: 1px 1px 2px#000000;
     font-family: 'Roboto', sans-serif;
     font-size: 32px;
+    padding: 30px;
+    text-align: center;
   }
     .header--title-bgwhite{
       color: #C0392B;
       background-color: #FFFFFF;
+      padding: 6px;
+      border-radius: 6px;
     }
 
 /* serie cover main page */
@@ -20,16 +31,20 @@
   .serie--title{    
     font-family: 'Open Sans', sans-serif;
     font-size: 28px;
+    padding: 20px 0 2.5px;
   }
   .serie--genre{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     color: #A9A4A4;
     display: block;
+    padding: 2.5px 0 20px;
   }
   .serie--image{
     display: block;
     max-width: 328px;
+    margin: 0 auto;
+    border-radius: 5px;
   }
   .serie--readmore{
     font-family: 'Roboto', sans-serif;
@@ -37,6 +52,10 @@
     background-color: #C0392B;
     text-decoration: none;
     display: block;
+    padding: 7px;
+    margin: 10px auto;
+    max-width: 328px;
+    border-radius: 5px;
   }
     .serie--readmore:hover{
       background-color: #E74C3C;
@@ -49,7 +68,83 @@
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
 }
+  .footer--element{
+    padding: 20px;
+  }
   .footer--image{
     width: 25px;
     height: 25px;
+    margin-top: 10px;
+    margin-right: 10px;
   }
+
+  /* serie detail main page */
+.seriedetail{
+  text-align: center;
+}
+  .seriedetail--title{    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    padding: 20px 0 2.5px;
+  }
+  .seriedetail--genre{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #A9A4A4;
+    display: block;
+    padding: 2.5px 0 20px;
+  }
+  .seriedetail--image{
+    display: block;
+    max-width: 328px;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+  .seriedetail--texto{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    max-width: 328px;
+    margin: 10px auto;
+    text-align: left;
+  }
+  .seriedetail--watchtrailler{
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    background-color: #F1C40F;
+    text-decoration: none;
+    display: block;
+    padding: 7px;
+    margin: 10px auto;
+    max-width: 328px;
+    border-radius: 5px;
+  }
+    .seriedetail--watchtrailler:hover{
+      background-color: rgba(241, 196, 15, 0.767);
+    }
+
+/* serie avaliation */
+.serieavaliation{
+  background-color: #EEEEEE;
+  margin: 10px;
+}
+  .serieavaliation--title{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px 0 10px;
+  }
+  .serieavaliation--images{
+    text-align: center;
+    padding: 30px;
+  }
+  .serieavaliation--twitter{
+    margin: 0 50px;
+  }
+  .serieavaliation--percent{
+    color: #27AE60;
+    font-size: 37px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+  }
+

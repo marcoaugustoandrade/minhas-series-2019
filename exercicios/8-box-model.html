@@ -1,7 +1,35 @@
-<!-- 
-  Exercício 8: marcar o texto a seguir; realizar a estilização utilizando CSS Box Model.
- -->
-CSS box-model
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Trabalhando com CSS Box Model</title>
+  <style>
+    *{
+      padding: 0; margin: 0;
+      box-sizing: border-box;
+    }
+    .titulo{
+      background-color: royalblue;
+      color: white;
+      /* Box model */
+      padding: 10px;
+      border: 3px #000000 solid;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+    .texto{
+      background-color: lightblue;
+      margin-top: 3px;
+    }
+  </style>
+</head>
+<body>
+  <!-- 
+    Exercício 8: marcar o texto a seguir; realizar a estilização utilizando CSS Box Model.
+   -->
+  <h1 class="titulo">CSS box-model</h1>
+  <h2 class="titulo">Box-model</h2>
+  <p class="texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius cumque explicabo deleniti, veniam delectus odio ex adipisci laudantium impedit numquam deserunt quo distinctio provident. Consequatur nihil quidem eligendi neque tempora?</p>
+</body>
+</html>
 
-Box-model
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius cumque explicabo deleniti, veniam delectus odio ex adipisci laudantium impedit numquam deserunt quo distinctio provident. Consequatur nihil quidem eligendi neque tempora?
