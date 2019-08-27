@@ -32,7 +32,7 @@
       background-color: #FFFFFF;
       padding: 6px;
       border-radius: 6px;
-    }
+    } 
 
 .menu{
   list-style: none;
@@ -56,28 +56,36 @@
 }
 
 /* serie cover main page */
+.series{
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .serie{
   text-align: center;
+  margin: 0 auto;
 }
-  .serie--title{    
+  .serie__title{    
     font-family: 'Open Sans', sans-serif;
     font-size: 28px;
     padding: 20px 0 2.5px;
   }
-  .serie--genre{
+  .serie__genre{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     color: #A9A4A4;
     display: block;
     padding: 2.5px 0 20px;
   }
-  .serie--image{
+  .serie__image{
     display: block;
     max-width: 328px;
     margin: 0 auto;
     border-radius: 5px;
   }
-  .serie--readmore{
+  .serie__readmore{
     font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
     background-color: #C0392B;
@@ -88,7 +96,7 @@
     max-width: 328px;
     border-radius: 5px;
   }
-    .serie--readmore:hover{
+    .serie__readmore:hover{
       background-color: #E74C3C;
     }
 
@@ -99,10 +107,10 @@
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
 }
-  .footer--element{
+  .footer__element{
     padding: 20px;
   }
-  .footer--image{
+  .footer__image{
     width: 25px;
     height: 25px;
     margin-top: 10px;
